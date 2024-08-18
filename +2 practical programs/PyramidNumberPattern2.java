@@ -1,0 +1,18 @@
+ /* write a program in java to print the patten
+ *  1
+ *  1 2
+ *  1 2 3
+ *  1 2 3 4
+ *  1 2 3 4 5
+ */
+//15.Pyramid Number pattern 2
+public class PyramidNumberPattern2 {
+    public static void main(String[] args) {
+        for(int i = 1; i <= 5; i++){
+            for(int j = 1; j <= i; j++){
+                System.out.print(j+" ");
+            }
+            System.out.println();
+        }
+    }
+}
